@@ -5,4 +5,4 @@
     key='{{ item.1 }}'
   with_subelements:
     - "{{ users_ssh_keys }}"
-    - "{{ keys }}"
+    - keys
